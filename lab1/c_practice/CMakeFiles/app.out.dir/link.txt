@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/app.out.dir/processtime.c.o  -o app.out -rdynamic 

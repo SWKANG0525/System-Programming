@@ -1,0 +1,6 @@
+INCLUDE_DIRECTORIES (lib)
+ADD_EXECUTABLE ( main main.c )
+ADD_LIBRARY ( _fp_operation STATIC lib/lib_fp_operation.c lib/lib_fp_operation.h)
+TARGET_LINK_LIBRARIES ( main PUBLIC _fp_operation )
+SET ( CMAKE_C_FLAGS_DEBUG "-DDEBUG -DC_FLAGS" )
+SET ( CMAKE_EXE_LINKER_FLAGS_DEBUG "-DDEBUG -DLINKER_FLAGS" )

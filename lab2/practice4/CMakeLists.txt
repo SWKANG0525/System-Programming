@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES (lib)
+ADD_EXECUTABLE ( main main.c )
+ADD_LIBRARY ( _fp_operation STATIC lib/lib_fp_operation.c lib/lib_fp_operation.h)
+TARGET_LINK_LIBRARIES ( main PUBLIC _fp_operation )
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
+SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pg")
+SET(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pg")

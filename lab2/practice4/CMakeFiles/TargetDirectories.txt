@@ -1,0 +1,4 @@
+/root/SystemProgramming/practice4/CMakeFiles/rebuild_cache.dir
+/root/SystemProgramming/practice4/CMakeFiles/edit_cache.dir
+/root/SystemProgramming/practice4/CMakeFiles/_fp_operation.dir
+/root/SystemProgramming/practice4/CMakeFiles/main.dir

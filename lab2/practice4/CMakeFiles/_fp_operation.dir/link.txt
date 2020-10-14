@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib_fp_operation.a  CMakeFiles/_fp_operation.dir/lib/lib_fp_operation.o
+/usr/bin/ranlib lib_fp_operation.a

@@ -1,0 +1,4 @@
+/root/SystemProgramming/practice7/CMakeFiles/edit_cache.dir
+/root/SystemProgramming/practice7/CMakeFiles/my_assert.dir
+/root/SystemProgramming/practice7/CMakeFiles/rebuild_cache.dir
+/root/SystemProgramming/practice7/CMakeFiles/assert_test.dir

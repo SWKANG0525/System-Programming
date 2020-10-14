@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/assert_test.dir/assert_test.o  -o assert_test -rdynamic libmy_assert.a 

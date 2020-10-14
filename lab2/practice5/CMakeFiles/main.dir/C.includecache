@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/SystemProgramming/practice4/main.c
+stdio.h
+-
+lib_fp_operation.h
+/root/SystemProgramming/practice4/lib_fp_operation.h
+
+lib/lib_fp_operation.h
+
